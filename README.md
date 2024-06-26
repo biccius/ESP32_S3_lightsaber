@@ -3,6 +3,12 @@
 ![image](https://github.com/biccius/ESP32_S3_lightsaber/assets/27350014/1fb1ac1a-8852-4372-acda-7008b178101b)
 
 
+# LIBRARY
+- Average Value: https://gitlab.com/yesbotics/libs/arduino/average-value
+- MPU6050: https://github.com/electroniccats/mpu6050
+- Wire: http://arduino.cc/en/Reference/Wire
+- Plot Plus: https://github.com/rlogiacco/PlotPlus
+
 # DEVICES
 - MPU6050 (I2C)
 - RGBW CREE LED
