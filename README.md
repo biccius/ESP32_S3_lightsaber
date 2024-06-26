@@ -9,6 +9,9 @@
 - Wire: http://arduino.cc/en/Reference/Wire
 - Plot Plus: https://github.com/rlogiacco/PlotPlus
 
+# PACKAGE
+- ESP32 Arduino Core 2.0.10 (also work with 2.0.14)
+
 # DEVICES
 - MPU6050 (I2C)
 - RGBW CREE LED
