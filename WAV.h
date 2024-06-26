@@ -2,12 +2,12 @@
  * WAV.h
  *
  *  Created on: 3 apr 2024
- *      Author: fabry
+ *      Author: XTronical - https://www.xtronical.com/i2s-ep3
+ *      
  */
 
 #ifndef WAV_H_
 #define WAV_H_
-
 
 #include "Arduino.h"
 #include "FS.h"
