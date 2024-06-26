@@ -10,7 +10,7 @@
 - Plot Plus: https://github.com/rlogiacco/PlotPlus
 
 # PACKAGE
-- ESP32 Arduino Core 2.0.10 (also work with 2.0.14)  [GitHub Pages](https://github.com/espressif/arduino-esp32/releases/download/2.0.10/))
+- ESP32 Arduino Core 2.0.10 (also work with 2.0.14)  [GitHub Pages](https://github.com/espressif/arduino-esp32/releases?q=2.0.10&expanded=true)
 
 
 
