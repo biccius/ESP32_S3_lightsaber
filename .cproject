@@ -22,13 +22,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/SD_MMC/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/arduino-timer/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/average-value-master/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/MPU6050/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PWMOutESP32-1.0.2}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus-master}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/FS/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/AverageValue/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.49981904" name="Sorgente CPP" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -37,13 +37,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/SD_MMC/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/arduino-timer/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/average-value-master/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/MPU6050/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PWMOutESP32-1.0.2}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus-master}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/FS/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/AverageValue/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.1938013785" name="Sorgente C" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -52,13 +52,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/SD_MMC/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/arduino-timer/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/average-value-master/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/MPU6050/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PWMOutESP32-1.0.2}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus-master}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/FS/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/AverageValue/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP32_s3/libraries/PlotPlus}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.1766176907" name="Sorgente Assembly" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

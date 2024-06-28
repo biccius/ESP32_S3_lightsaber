@@ -3,6 +3,7 @@
 ################################################################################
 
 INO_SRCS := 
+C++M_SRCS := 
 ASM_SRCS := 
 O_UPPER_SRCS := 
 CPP_SRCS := 
@@ -11,13 +12,18 @@ O_SRCS :=
 ELF_SRCS := 
 C_UPPER_SRCS := 
 CXX_SRCS := 
+CCM_SRCS := 
 C++_SRCS := 
 PDE_SRCS := 
 CC_SRCS := 
+AR_SRCS := 
 C_SRCS := 
 HEX_SRCS := 
+CXXM_SRCS := 
+CCM_DEPS := 
 C_UPPER_DEPS := 
 PDE_DEPS := 
+CXXM_DEPS := 
 C_DEPS := 
 AR := 
 CC_DEPS := 
@@ -30,6 +36,7 @@ HEX :=
 INO_DEPS := 
 SIZEDUMMY := 
 S_UPPER_DEPS := 
+C++M_DEPS := 
 ELF := 
 CPP_DEPS := 
 
@@ -38,11 +45,10 @@ SUBDIRS := \
 . \
 core\core \
 core\core\libb64 \
+libraries\AverageValue\src \
 libraries\FS\src \
 libraries\MPU6050\src \
-libraries\PWMOutESP32-1.0.2 \
-libraries\PlotPlus-master \
+libraries\PlotPlus \
 libraries\SD_MMC\src \
 libraries\Wire\src \
-libraries\average-value-master\src \
 

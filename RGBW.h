@@ -9,7 +9,7 @@
 #define RGBW_H_
 
 #include "Arduino.h"
-#include "PWMOutESP32.h"
+
 
 #define 	PWM_BIT_RESOLUTION 		10
 
@@ -44,8 +44,6 @@ class RGBW
 		uint8_t _bluePin;
 		uint8_t _whitePin;
 
-
-		//PWMOutESP32 PWM;
 
 
 
