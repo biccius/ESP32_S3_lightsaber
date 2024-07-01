@@ -45,6 +45,16 @@ void MyMPU6050::init_MyMPU6050(bool enableInterrupt)
 	  #define GYRO_FULL_SCALE_2000_DPS 0x18
 	*/
 
+	
+     /*
+     * FS_SEL | Full Scale Range   | LSB Sensitivity
+     * -------+--------------------+----------------
+     * 0      | +/- 250 degrees/s  | 131 LSB/deg/s
+     * 1      | +/- 500 degrees/s  | 65.5 LSB/deg/s
+     * 2      | +/- 1000 degrees/s | 32.8 LSB/deg/s
+     * 3      | +/- 2000 degrees/s | 16.4 LSB/deg/s
+     */
+
 	Wire.endTransmission();
 
 	// configure accelerometer
@@ -57,7 +67,15 @@ void MyMPU6050::init_MyMPU6050(bool enableInterrupt)
 		#define ACC_FULL_SCALE_4G  0x08
 		#define ACC_FULL_SCALE_8G  0x10
 		#define ACC_FULL_SCALE_16G 0x18
-	*/
+
+     	 *  AFS_SEL | Full Scale Range | LSB Sensitivity
+	 * --------+------------------+----------------
+	 * 0       | +/- 2g           | 16384 LSB/mg
+	 * 1       | +/- 4g           | 8192 LSB/mg
+	 * 2       | +/- 8g           | 4096 LSB/mg
+	 * 3       | +/- 16g          | 2048 LSB/mg
+
+ */
 
 	if (enableInterrupt)
 	{
