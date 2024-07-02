@@ -1,18 +1,11 @@
-/*
- * MyMPU6050.h
- *
- *  Created on: 1 lug 2024
- *      Author: Utente
- */
-
-#ifndef MYMPU6050_H_
-#define MYMPU6050_H_
-
 #include <stdbool.h>
 
 
-class MyMPU6050 {
+class MyMPU6050
+{
+
 public:
+
 	MyMPU6050();
 	virtual ~MyMPU6050();
 
@@ -26,11 +19,17 @@ public:
 	void printData();
 	void processAccelData();
 
+	void normalizeGyro(float gyro_x, float gyro_y, float gyro_z);
+	void normalizeAccel(float accelX,float accelY, float accelZ);
 
+	void smoothSwing(float alpha, float max_step);
+
+	float exponentialSmoothing(float current_value, float previous_value, float alpha);
+	float limitVariation(float current_value, float previous_value, float max_step);
 
 private:
 
-	long accelX, accelY, accelZ;
+	long accelXPresent, accelYPresent, accelZPresent;
 	float gForceX, gForceY, gForceZ;
 	long gyroXCalli = 0, gyroYCalli = 0, gyroZCalli = 0;
 	long gyroXPresent = 0, gyroYPresent = 0, gyroZPresent = 0;
@@ -45,9 +44,5 @@ private:
 
 	float normalTemperature;
 
+}
 
-
-
-
-
-#endif /* MYMPU6050_H_ */
